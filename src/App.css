@@ -1,3 +1,8 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
 .App {
   text-align: center;
 }
@@ -31,8 +36,22 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
-  }
+}
   to {
     transform: rotate(360deg);
-  }
+}}
+
+.taskBg .iconsWrap span {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+  color: #00ff89
+}
+
+.taskBg .iconsWrap span:hover {
+  color: yellow;
+}
+
+.mr-20 {
+  margin-right: 20px;
 }

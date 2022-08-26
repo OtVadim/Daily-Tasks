@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/public
+/.history
+/.lh
 /.pnp
 .pnp.js
 

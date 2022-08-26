@@ -69,7 +69,7 @@ function App() {
     <div className="container App">
 
       <br /><br />
-      <h2> To Do List React</h2>
+      <h2> Список дел</h2>
       <br /><br />
 
       { updateData && updateData ? (
@@ -99,7 +99,7 @@ function App() {
       />
 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

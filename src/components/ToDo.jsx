@@ -47,9 +47,9 @@ const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
                 
               </React.Fragment>
             )
-          }) };
+          }) }
         </>
-    );
+    )
 }
 
-export default ToDo;
+export default ToDo
